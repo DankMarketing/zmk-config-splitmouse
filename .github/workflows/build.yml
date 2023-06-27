@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: jgreel/zmk/.github/workflows/build-user-config.yml@cirque-trackpad
+    uses: jgreel/zmk/.github/workflows/build-user-config.yml@mouse-ftc-cirque
