@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: jgreel
-      url-base: https://github.com/jgreel
+    - name: crides
+      url-base: https://github.com/crides
   projects:
     - name: zmk
-      remote: jgreel
-      revision: mouse-ftc-cirque
+      remote: crides
+      revision: cirque-trackpad
       import: app/west.yml
   self:
     path: config
