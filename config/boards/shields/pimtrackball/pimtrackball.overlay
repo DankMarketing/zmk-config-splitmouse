@@ -14,7 +14,7 @@
         input-gpios
             = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
             , <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
-            //, <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
+            , <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
             ;
     };
 };
@@ -31,8 +31,8 @@
 		move-factor-y = <200>;	// used by voidyourwarranty branch, default 100
 		move-inertia-x = <1>;	// used by voidyourwarranty branch, default 0
 		move-inertia-y = <1>;	// used by voidyourwarranty branch, default 0
-		//invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
-		//invert-move-y;          // Invert pointer Y axis (up is down, and vice versa)
+		invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
+		invert-move-y;          // Invert pointer Y axis (up is down, and vice versa)
 		button = <2>;           // Send right-click when pressing the ball (default: 0 = left click, 1 = right click, 2 = middle click?)
 		//swap-axes;              // Swap X and Y axes (horizontal is vertical, and vice versa)
 		//poll-interval = <50>;	//used by voidyourwarranty branch, default 50
