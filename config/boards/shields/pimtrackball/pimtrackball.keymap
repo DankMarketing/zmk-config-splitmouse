@@ -7,8 +7,8 @@
     keymap {
         compatible = "zmk,keymap";
                 // ROW A FROM SCHEMATIC FILE
-                // ROW A FROM SCHEMATIC FILE
-                // ROW A FROM SCHEMATIC FILE
+                // ROW B FROM SCHEMATIC FILE
+                // ROW C FROM SCHEMATIC FILE
         default_layer {
             bindings = <
                 &mkp LCLK 
